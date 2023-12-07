@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kő - papír - olló</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>kő - papír - olló</h1>
+    <h2>Válassz!</h2>
+    <div class="options">
+      <div id="bko" onclick="play('rock')">
+        <img src="ko.png" alt="">
+      </div>
+      <div id="bpapir" onclick="play('paper')">
+        <img src="papir.png" alt="">
+      </div>
+      <div id="bollo" onclick="play('scissors')">
+        <img src="ollo.png" alt="">
+      </div>
+    </div>
+    <h2>Gép választása</h2>
+    <div>
+      <img src="" alt="" id="gepvalasztkep">
+    </div>
+    <div class="result">
+      <h2>Eredmény: <span id="result">-</span></h2>
+    </div>
+    <h3>Te pontod</h3>
+    <div id="tePontod"></div>
+    <h3>Gép pontja</h3>
+    <div id="gepPont"></div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

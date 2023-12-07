@@ -1,0 +1,21 @@
+body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: green 10px 5px 15px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.options div img, #gepvalasztkep {
+  width: 100px;
+}
